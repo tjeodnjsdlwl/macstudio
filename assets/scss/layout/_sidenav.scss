@@ -1,0 +1,32 @@
+
+.gnb{
+    display: none;
+}
+.gnb.active{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    .menu-item{
+        color: #fff;
+        line-height: 140px;
+        font-weight: 700;
+        font-size: 6vw;
+        & a:hover{
+            color: #f93314;
+        }
+    }
+    .sub-item{
+        white-space: nowrap;
+        display: block;
+        margin-left: 10%;
+        font-size: 3vw;
+        line-height: 60px;
+        font-weight: 500;
+    }
+    
+}
